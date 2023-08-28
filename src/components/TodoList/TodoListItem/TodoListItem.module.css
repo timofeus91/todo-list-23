@@ -1,0 +1,94 @@
+.item {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px var(--shadow-task);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 100px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto 0;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    color: var(--main-black);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.deleteButton {
+    background: url("../../../images/icons/button-delete-black.svg") center/cover no-repeat;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.deleteButton:hover {
+    transform: scale(1.2);
+}
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: 0 auto 0;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    color: var(--main-black);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.bottomContainer {
+    width: 95%;
+    margin: auto auto 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.labelWithInput {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    color: var(--second-black);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.inputChangeActive {
+    margin: 0;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.labelWithInput:hover {
+    opacity: 0.5;
+}
+
+

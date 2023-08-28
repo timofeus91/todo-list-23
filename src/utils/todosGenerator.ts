@@ -6,6 +6,7 @@ const generateTodoItem = (title: string): TTodosItem => {
     title: title,
     active: true,
     date: new Date(),
+    text: 'Its very big text for text in TodosItem',
   };
 };
 
