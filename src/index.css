@@ -23,4 +23,11 @@ code {
     --main-black: rgb(33, 31, 31);
     --second-black: rgb(9, 9, 9);
 
+    --middle-shadow: rgba(00, 00, 00, 0.5);
+    --high-shadow: rgba(0, 0, 0, 0.1);
+
+    --scrollbar-thumb-default-color: rgba(1, 1, 1, 0.101);
+    --first-scrollbar-color: rgb(194, 194, 194);
+    --second-scrollbar-color: rgb(227, 209, 209);
+
 }

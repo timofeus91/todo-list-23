@@ -1,15 +1,29 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  background-color: var(--background-main);
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--background-main);
+    gap: 15px;
 }
 
 .title {
-  color: var(--white);
-  padding: 0;
-  margin: 0;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    border: none;
+    background-color: var(--white);
+    border-radius: 4px;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.button:hover {
+    opacity: 0.8;
 }

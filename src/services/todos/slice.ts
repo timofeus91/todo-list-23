@@ -10,7 +10,7 @@ const setPreloader = (state: TTodosSlice, action: boolean) => {
   state.preloader = action;
 };
 
-export const orderPassSlice = createSlice({
+const todosSlice = createSlice({
   name: 'todos-slice',
   initialState: initialState,
   reducers: {},
@@ -18,3 +18,5 @@ export const orderPassSlice = createSlice({
     /*    builder;*/
   },
 });
+
+export default todosSlice.reducer;
